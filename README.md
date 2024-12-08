@@ -1,6 +1,6 @@
 # ModuleBuilder
 
-this is a stripped down and sanitized version of something i use at work. it has not been tested and i cant be asses to document it better than what you see here. go read the psframework docs if something is broken.
+this is a stripped down and sanitized version of something i use at work. it has not been tested and i cant be assed to document it better than what you see here. go read the psframework docs if something is broken.
 
 ## psframework
 this heavily utilizes many aspects of psframework. ensure you understand how both psframe and psmoduledevelopment work if you run in to any issues

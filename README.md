@@ -12,7 +12,7 @@ this heavily utilizes many aspects of psframework. ensure you understand how bot
 ## how to use
 configure the subfolder `ModuleSource` with everything you want to include in your module. internal folder is for stuff you want to run when the module is imported, the function folder is for functions you want exposed and usable as commandlets
 
-navigate to the root directory in powershell and execute `psmdinvoke.ps1` you can also include `-modulename name-of-your-module` or it will prompt you for it. 
+navigate to the root directory in powershell and execute `psmdinvoke.ps1` you can also include `-modulename name-of-your-module` or it will prompt you for it. you can also include `-fallbackOutPath <directory path>` to specify the output directory if you dont want to use the psfconfig command below.
 
 DONT try to run this from a different working directory by calling the file path like `& c:\imstupid\cantread\modulebuilder\psmdinvoke.ps1` it probably wont work.
 
